@@ -1,7 +1,11 @@
 module.exports = {
   purge: [`_site/**/*.html`],
   theme: {
-    extend: {},
+    extend: {
+      maxWidth: {
+        'half': '50%',
+      }
+    }
   },
   variants: {},
   plugins: [],
